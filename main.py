@@ -8,8 +8,8 @@ if os.path.exists("output.json"):
     os.remove("output.json")
 
 # Scrape the website
-url = 'https://farsnews.ir/showcase'
-scraper = Crawler(url, max_scrolls=50, pause_time=2, max_links=10, output_file="output.json")
+url = 'https://edition.cnn.com/'
+scraper = Crawler(url, max_scrolls=50, pause_time=2, max_links=2, output_file="output.json")
 scraper.run()
 
 # MongoDB connection settings
