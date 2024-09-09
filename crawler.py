@@ -53,7 +53,9 @@ class Crawler:
         seen_content = set()
 
         for link in list(links)[:self.max_links]:
-            page_data = {"url": link, "content": []}
+            page_data = {"url": link}
+            page_data.update({tag: [] for tag in all_tags})
+
             print("processing ...")
             try:
                 self.driver.get(link)
@@ -64,10 +66,7 @@ class Crawler:
                     for element in elements:
                         text = element.text.strip()
                         if text:
-                            content_tuple = (tag, "text", text)
-                            if content_tuple not in seen_content:
-                                seen_content.add(content_tuple)
-                                page_data["content"].append({"tag": tag, "type": "text", "value": text})
+                            page_data[tag].append({"type": "text", "value": text})
 
                 for tag in all_tags:
                     elements = self.driver.find_elements(By.TAG_NAME, tag)
@@ -75,11 +74,7 @@ class Crawler:
                         for attr in all_attributes:
                             value = element.get_attribute(attr)
                             if value:
-                                content_tuple = (tag, "attribute", attr, value)
-                                if content_tuple not in seen_content:
-                                    seen_content.add(content_tuple)
-                                    page_data["content"].append(
-                                        {"tag": tag, "type": "attribute", "attribute": attr, "value": value})
+                                page_data[tag].append({"type": "attribute", "attribute": attr, "value": value})
 
             except Exception as e:
                 page_data["error"] = str(e)

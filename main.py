@@ -1,6 +1,6 @@
 from crawler import Crawler
-import json
 from pymongo import MongoClient
+import json
 import os
 
 # Delete output.json if it exists
@@ -72,3 +72,4 @@ print("Duplicate documents have been removed.")
 
 # Close the connection
 client.close()
+
