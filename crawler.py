@@ -29,17 +29,15 @@ class Crawler:
 
         for _ in range(self.max_scrolls):
             # Scroll down by a small increment (to trigger lazy loading)
-            self.driver.execute_script("window.scrollBy(0, 1000);")  # Adjust the increment value as needed
+            self.driver.execute_script("window.scrollBy(0, 1000);")
             time.sleep(self.pause_time)  # Wait for content to load
 
-            # Re-evaluate the DOM for new anchor elements
             anchor_elements = self.driver.find_elements(By.TAG_NAME, "a")
             for element in anchor_elements:
                 href = element.get_attribute("href")
-                if href and len(href) > 0:  # Ensure href is not empty
+                if href and len(href) > 0:
                     all_links.add(href)
 
-            # Check if the scroll height has changed (i.e., new content has loaded)
             new_height = self.driver.execute_script("return document.body.scrollHeight")
             if new_height == last_height:
                 break
@@ -51,29 +49,26 @@ class Crawler:
         all_tags = ["p", "h1", "h2", "h3", "h4", "h5", "h6", "span", "div", "img", "form", "input", "textarea"]
         all_attributes = ["src", "href", "alt", "title", "value"]
 
-        data = []  # List to hold all the data
-        seen_content = set()  # Set to track unique content
+        data = []
+        seen_content = set()
 
-        # Process only the first 'max_links' links
         for link in list(links)[:self.max_links]:
-            page_data = {"url": link, "content": []}  # Dictionary to store data for each page
+            page_data = {"url": link, "content": []}
             print("processing ...")
             try:
                 self.driver.get(link)
-                time.sleep(2)  # Adjust the wait time as needed
+                time.sleep(2)
 
-                # Extract text from tags
                 for tag in all_tags:
                     elements = self.driver.find_elements(By.TAG_NAME, tag)
                     for element in elements:
                         text = element.text.strip()
-                        if text:  # Only add non-empty text
+                        if text:
                             content_tuple = (tag, "text", text)
                             if content_tuple not in seen_content:
                                 seen_content.add(content_tuple)
                                 page_data["content"].append({"tag": tag, "type": "text", "value": text})
 
-                # Extract attributes from tags
                 for tag in all_tags:
                     elements = self.driver.find_elements(By.TAG_NAME, tag)
                     for element in elements:
@@ -87,9 +82,9 @@ class Crawler:
                                         {"tag": tag, "type": "attribute", "attribute": attr, "value": value})
 
             except Exception as e:
-                page_data["error"] = str(e)  # Store any error messages
+                page_data["error"] = str(e)
 
-            data.append(page_data)  # Add the page data to the main list
+            data.append(page_data)
 
         # Write the collected data to a JSON file
         with open(self.output_file, 'w', encoding='utf-8') as f:
@@ -107,5 +102,4 @@ class Crawler:
         # Crawl and extract data from the first 'max_links' collected links and store it in a JSON file
         self.crawl_and_extract_data(all_links)
 
-        # Close the browser window (comment this out if you want to keep the browser open)
         self.driver.quit()
