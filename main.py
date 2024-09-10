@@ -8,9 +8,14 @@ if os.path.exists("output.json"):
     os.remove("output.json")
 
 # Scrape the website
-url = 'https://edition.cnn.com/'
-scraper = Crawler(url, max_scrolls=50, pause_time=2, max_links=2, output_file="output.json")
-scraper.run()
+urls = []
+with open('urls.txt', 'r') as file:
+    for line in file:
+        line = line.strip()
+        url = f"{line}"
+        urls.append(url)
+
+print(urls)
 
 # MongoDB connection settings
 MONGO_URI = "mongodb://localhost:27017/"
@@ -23,53 +28,54 @@ client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
 collection = db[COLLECTION_NAME]
 
-# Load data from JSON file
-with open(JSON_FILE_PATH, 'r', encoding='utf-8') as file:
-    data = json.load(file)
+for url in urls:
+    scraper = Crawler(url, max_scrolls=50, pause_time=2, max_links=5, output_file="output.json")
+    scraper.run()
 
-# Insert data into MongoDB
-if isinstance(data, list):
-    collection.insert_many(data)
-else:
-    collection.insert_one(data)
+    # Load data from JSON file
+    with open(JSON_FILE_PATH, 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-print(f"Data successfully inserted into {DATABASE_NAME}.{COLLECTION_NAME}")
+    # Insert data into MongoDB
+    if isinstance(data, list):
+        collection.insert_many(data)
+    else:
+        collection.insert_one(data)
 
-# Remove duplicates
-pipeline = [
-    {
-        "$group": {
-            "_id": {
-                "url": "$url",
-                # Add more fields if needed to identify duplicates
-            },
-            "count": {"$sum": 1},
-            "docs": {"$push": "$_id"}
+    print(f"Data successfully inserted into {DATABASE_NAME}.{COLLECTION_NAME}")
+
+    # Remove duplicates
+    pipeline = [
+        {
+            "$group": {
+                "_id": {
+                    "url": "$url",
+                    # Add more fields if needed to identify duplicates
+                },
+                "count": {"$sum": 1},
+                "docs": {"$push": "$_id"}
+            }
+        },
+        {
+            "$match": {
+                "count": {"$gt": 1}
+            }
         }
-    },
-    {
-        "$match": {
-            "count": {"$gt": 1}
-        }
-    }
-]
+    ]
 
-# Execute the aggregation pipeline to find duplicates
-results = collection.aggregate(pipeline)
+    # Execute the aggregation pipeline to find duplicates
+    results = collection.aggregate(pipeline)
 
-# Process results to remove duplicates
-for result in results:
-    # Keep the first document and delete the rest
-    docs_to_keep = [result['docs'][0]]
-    docs_to_delete = result['docs'][1:]
+    # Process results to remove duplicates
+    for result in results:
+        # Keep the first document and delete the rest
+        docs_to_keep = [result['docs'][0]]
+        docs_to_delete = result['docs'][1:]
 
-    # Delete duplicate documents
-    collection.delete_many({
-        "_id": {"$in": docs_to_delete}
-    })
-
-print("Duplicate documents have been removed.")
-
+        # Delete duplicate documents
+        collection.delete_many({
+            "_id": {"$in": docs_to_delete}
+        })
 # Close the connection
 client.close()
 

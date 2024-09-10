@@ -50,7 +50,6 @@ class Crawler:
         all_attributes = ["src", "href", "alt", "title", "value"]
 
         data = []
-        seen_content = set()
 
         for link in list(links)[:self.max_links]:
             page_data = {"url": link}
