@@ -27,7 +27,7 @@ db = client[DATABASE_NAME]
 collection = db[COLLECTION_NAME]
 
 for url in urls:
-    scraper = Crawler(url, max_scrolls=50, pause_time=2, max_links=100, output_file="output.json")
+    scraper = Crawler(url, max_scrolls=50, pause_time=2, max_links=9, output_file="output.json")
     scraper.run()
 
     # Load data from JSON file
