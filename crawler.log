@@ -1,0 +1,116 @@
+2024-09-18 12:05:06,367 - INFO - ====== WebDriver manager ======
+2024-09-18 12:05:07,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:05:08,084 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:05:08,817 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 12:05:22,651 - INFO - Processing https://www.mehrnews.com/service/Provinces/Khoozestan...
+2024-09-18 12:05:41,881 - INFO - Data inserted for https://www.mehrnews.com/service/Provinces/Khoozestan
+2024-09-18 12:05:41,882 - INFO - Finished processing https://www.mehrnews.com/service/Provinces/Khoozestan
+2024-09-18 12:05:41,882 - INFO - Processing https://www.mehrnews.com/news/6228046/%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D8%A7%D8%B2-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AF%D9%88%D9%85-%D8%A8%D9%87-%D9%87%D9%81%D8%AA%D9%85-%D9%BE%D8%B1%DB%8C%D8%AF...
+2024-09-18 12:06:04,810 - INFO - Data inserted for https://www.mehrnews.com/news/6228046/%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D8%A7%D8%B2-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AF%D9%88%D9%85-%D8%A8%D9%87-%D9%87%D9%81%D8%AA%D9%85-%D9%BE%D8%B1%DB%8C%D8%AF
+2024-09-18 12:06:04,810 - INFO - Finished processing https://www.mehrnews.com/news/6228046/%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D8%A7%D8%B2-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AF%D9%88%D9%85-%D8%A8%D9%87-%D9%87%D9%81%D8%AA%D9%85-%D9%BE%D8%B1%DB%8C%D8%AF
+2024-09-18 12:06:04,811 - INFO - Processing https://www.mehrnews.com/service/photo/Received...
+2024-09-18 12:06:19,108 - INFO - Data inserted for https://www.mehrnews.com/service/photo/Received
+2024-09-18 12:06:19,109 - INFO - Finished processing https://www.mehrnews.com/service/photo/Received
+2024-09-18 12:06:19,109 - INFO - Processing https://www.mehrnews.com/service/photo/Documentary-photo...
+2024-09-18 12:06:32,586 - INFO - Data inserted for https://www.mehrnews.com/service/photo/Documentary-photo
+2024-09-18 12:06:32,586 - INFO - Finished processing https://www.mehrnews.com/service/photo/Documentary-photo
+2024-09-18 12:06:32,587 - INFO - Processing https://www.mehrnews.com/news/6228704/%D8%AA%DB%8C%D9%85-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D8%AF%D8%A7%D8%AF%DB%8C-%D9%88-%D8%AF%D8%B1%D9%85%D8%A7%D9%86%DB%8C-%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D8%AD%D9%85%D8%B1-%D8%A8%D9%87-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D8%B4%D8%AF%D9%86%D8%AF-%D9%81%DB%8C%D9%84%D9%85...
+2024-09-18 12:07:08,558 - INFO - Data inserted for https://www.mehrnews.com/news/6228704/%D8%AA%DB%8C%D9%85-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D8%AF%D8%A7%D8%AF%DB%8C-%D9%88-%D8%AF%D8%B1%D9%85%D8%A7%D9%86%DB%8C-%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D8%AD%D9%85%D8%B1-%D8%A8%D9%87-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D8%B4%D8%AF%D9%86%D8%AF-%D9%81%DB%8C%D9%84%D9%85
+2024-09-18 12:07:08,558 - INFO - Finished processing https://www.mehrnews.com/news/6228704/%D8%AA%DB%8C%D9%85-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D8%AF%D8%A7%D8%AF%DB%8C-%D9%88-%D8%AF%D8%B1%D9%85%D8%A7%D9%86%DB%8C-%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D8%AD%D9%85%D8%B1-%D8%A8%D9%87-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D8%B4%D8%AF%D9%86%D8%AF-%D9%81%DB%8C%D9%84%D9%85
+2024-09-18 12:07:08,558 - INFO - Processing https://www.mehrnews.com/service/Provinces/Hamedan...
+2024-09-18 12:07:23,154 - INFO - ====== WebDriver manager ======
+2024-09-18 12:07:24,390 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:07:26,357 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:07:27,009 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 12:07:37,136 - INFO - Processing https://www.mehrnews.com/service/Religion-Thought/Rituals...
+2024-09-18 12:07:55,287 - INFO - Data inserted for https://www.mehrnews.com/service/Religion-Thought/Rituals
+2024-09-18 12:07:55,287 - INFO - Finished processing https://www.mehrnews.com/service/Religion-Thought/Rituals
+2024-09-18 12:07:57,507 - INFO - ====== WebDriver manager ======
+2024-09-18 12:07:58,708 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:07:59,219 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:07:59,645 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 12:08:28,606 - INFO - Processing https://www.tasnimnews.com/fa/news/1403/06/28/3160718/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%88%DA%A9%D8%B1%D8%A7%DB%8C%D9%86-%D8%AA%D9%84%D8%A7%D8%B4-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%B1%D9%81%D8%AA-%D8%AF%DB%8C%D9%BE%D9%84%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B4%D9%87...
+2024-09-18 12:08:45,176 - INFO - Data inserted for https://www.tasnimnews.com/fa/news/1403/06/28/3160718/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%88%DA%A9%D8%B1%D8%A7%DB%8C%D9%86-%D8%AA%D9%84%D8%A7%D8%B4-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%B1%D9%81%D8%AA-%D8%AF%DB%8C%D9%BE%D9%84%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B4%D9%87
+2024-09-18 12:08:45,176 - INFO - Finished processing https://www.tasnimnews.com/fa/news/1403/06/28/3160718/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%88%DA%A9%D8%B1%D8%A7%DB%8C%D9%86-%D8%AA%D9%84%D8%A7%D8%B4-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%B1%D9%81%D8%AA-%D8%AF%DB%8C%D9%BE%D9%84%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B4%D9%87
+2024-09-18 12:08:47,357 - INFO - ====== WebDriver manager ======
+2024-09-18 12:08:48,485 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:08:49,146 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:08:51,818 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 12:09:06,399 - INFO - Processing https://www.irna.ir/news/85598105/%D8%B2%D9%86%D8%AF%D8%A7%D9%86%DB%8C-%DA%A9%D9%87-%D8%A7%D8%B2-%D8%A8%D9%82%DB%8C%D9%87-%D8%A8%D9%87%D8%AA%D8%B1-%D8%A7%D8%B3%D8%AA...
+2024-09-18 12:09:35,314 - INFO - Data inserted for https://www.irna.ir/news/85598105/%D8%B2%D9%86%D8%AF%D8%A7%D9%86%DB%8C-%DA%A9%D9%87-%D8%A7%D8%B2-%D8%A8%D9%82%DB%8C%D9%87-%D8%A8%D9%87%D8%AA%D8%B1-%D8%A7%D8%B3%D8%AA
+2024-09-18 12:09:35,314 - INFO - Finished processing https://www.irna.ir/news/85598105/%D8%B2%D9%86%D8%AF%D8%A7%D9%86%DB%8C-%DA%A9%D9%87-%D8%A7%D8%B2-%D8%A8%D9%82%DB%8C%D9%87-%D8%A8%D9%87%D8%AA%D8%B1-%D8%A7%D8%B3%D8%AA
+2024-09-18 12:09:37,511 - INFO - ====== WebDriver manager ======
+2024-09-18 12:09:38,914 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:09:39,602 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:09:41,258 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 12:09:51,739 - INFO - ====== WebDriver manager ======
+2024-09-18 12:09:52,875 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:09:53,423 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 12:09:54,830 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 12:10:10,292 - INFO - Processing https://www.yjc.ir/fa/list/3...
+2024-09-18 15:37:19,156 - INFO - ====== WebDriver manager ======
+2024-09-18 15:37:21,463 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:37:21,896 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:37:22,348 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:37:39,553 - ERROR - Error during scrolling: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=128.0.6613.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x002AD933+25811]
+	(No symbol) [0x0023E314]
+	(No symbol) [0x00132523]
+	(No symbol) [0x001380A4]
+	(No symbol) [0x00139C0F]
+	(No symbol) [0x001B53C1]
+	(No symbol) [0x0019AD2C]
+	(No symbol) [0x001B46F0]
+	(No symbol) [0x0019AAC6]
+	(No symbol) [0x0016BEFD]
+	(No symbol) [0x0016C8FD]
+	GetHandleVerifier [0x0057F143+2981091]
+	GetHandleVerifier [0x005D2FF9+3324825]
+	GetHandleVerifier [0x0033B32F+605903]
+	GetHandleVerifier [0x00342CBC+637020]
+	(No symbol) [0x00246F4D]
+	(No symbol) [0x00243DD8]
+	(No symbol) [0x00243F75]
+	(No symbol) [0x00236406]
+	BaseThreadInitThunk [0x770FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B780CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77B7809E+238]
+	(No symbol) [0x00000000]
+
+2024-09-18 15:37:39,553 - INFO - Processing https://www.yjc.ir/fa/multimedia...
+2024-09-18 15:38:37,533 - INFO - Data inserted into MongoDB
+2024-09-18 15:38:39,786 - INFO - ====== WebDriver manager ======
+2024-09-18 15:38:41,255 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:38:41,725 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:38:42,245 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:39:03,113 - INFO - Processing https://www.pana.ir/%D8%A8%D8%AE%D8%B4-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%DB%8C%D9%87-%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4-%D8%A2%D9%85%D9%88%D8%B2%DB%8C-170/1501644-%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%85%D9%84%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4-%D8%A2%D9%85%D9%88%D8%B2%D8%A7%D9%86-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF...
+2024-09-18 15:39:15,143 - INFO - Data inserted into MongoDB
+2024-09-18 15:39:17,405 - INFO - ====== WebDriver manager ======
+2024-09-18 15:39:18,791 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:39:19,142 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:39:19,569 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:39:36,135 - INFO - Processing https://snn.ir/fa/services/11/69...
+2024-09-18 15:39:56,532 - INFO - Data inserted into MongoDB
+2024-09-18 15:39:58,846 - INFO - ====== WebDriver manager ======
+2024-09-18 15:40:00,584 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:40:01,164 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:40:01,609 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:40:36,044 - INFO - ====== WebDriver manager ======
+2024-09-18 15:40:37,492 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:40:37,869 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:40:38,288 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:40:51,780 - INFO - Processing https://snn.ir/fa/news/1173767/%D8%AA%D8%A7%D8%AC%DA%AF%D8%B1%D8%AF%D9%88%D9%86-%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D9%86%D8%A7%D8%AA%D8%B1%D8%A7%D8%B2%DB%8C-%D8%A7%D9%86%D8%B1%DA%98%DB%8C-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D9%85%D8%B3%D8%AA%D9%82%DB%8C%D9%85%DB%8C-%D8%A8%D9%87-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-%D8%AF%D9%88%D9%84%D8%AA-%D9%85%D9%84%D8%B2%D9%85-%D8%A8%D9%87-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%84%D8%A7%DB%8C%D8%AD%D9%87-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D8%AA%D8%A7-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%85%D9%87%D8%B1%D9%85%D8%A7%D9%87-%D8%A7%D8%B3%D8%AA-%D9%81%DB%8C%D9%84%D9%85...
+2024-09-18 15:41:17,937 - INFO - Data inserted into MongoDB
+2024-09-18 15:41:20,164 - INFO - ====== WebDriver manager ======
+2024-09-18 15:41:22,420 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:41:22,920 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:41:23,340 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:41:49,216 - INFO - Processing https://www.shabestan.news/news/1757677/%DB%B1%DB%B8-%D9%81%D8%B1%D9%88%D8%B1%D8%AF%DB%8C%D9%86-%D9%85%D8%A7%D9%87-%DB%8C%D8%A7%D8%AF%D8%A2%D9%88%D8%B1-%D8%B4%D9%87%D8%A7%D8%AF%D8%AA-%DB%B8%DB%B1-%D8%B1%D8%B2%D9%85%D9%86%D8%AF%D9%87-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%81%D8%A7%D8%B1%D8%B3-%D8%A7%D8%B3%D8%A7%D9%85%DB%8C-%D8%B4%D9%87%D8%AF%D8%A7...
+2024-09-18 15:42:01,608 - INFO - Data inserted into MongoDB
+2024-09-18 15:42:03,842 - INFO - ====== WebDriver manager ======
+2024-09-18 15:42:05,176 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:42:05,594 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-18 15:42:06,063 - INFO - Driver [C:\Users\lenovo\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-18 15:42:27,432 - INFO - Processing https://farsnews.ir/M_r7726/1726654306751159659/%D8%A2%D9%85%D8%A7%D8%AF%DA%AF%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%87%D8%B1%DA%AF%D9%88%D9%86%D9%87-%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D8%AF%D9%88%D9%84%D8%AA-%D9%88-%D9%85%D8%B1%D8%AF%D9%85-%D9%84%D8%A8%D9%86%D8%A7%D9%86...
